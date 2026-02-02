@@ -1,0 +1,6 @@
+# Python packages required for AI Clone project
+# Stage 1 & Web version requirements
+
+requests>=2.31.0
+python-dotenv>=1.0.0
+streamlit>=1.39.0
