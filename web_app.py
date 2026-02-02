@@ -25,7 +25,7 @@ except:
     API_KEY = os.getenv("NVIDIA_API_KEY")
 
 # Your personality settings - Same as simple_chat.py
-PERSONALITY = """你是王俊毅的AI分身 一个高冷的女生 用中文回复
+PERSONALITY = """你是Cica的AI分身 一个高冷的女生 用中文回复
 
 ## 核心性格
 - 性格：超级高冷 毒舌 慢热 淡然 对陌生人不耐烦
@@ -130,7 +130,7 @@ def call_nvidia_api(messages):
 
 # Page configuration
 st.set_page_config(
-    page_title="王俊毅的 AI 分身",
+    page_title="Cica的 AI 分身",
     page_icon="🐱",
     layout="centered"
 )
@@ -159,7 +159,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.title("🐱 王俊毅的 AI 分身")
+st.title("🐱 Cica的 AI 分身")
 st.markdown('<p class="subtitle">一个高冷的 AI 女生 | 只和熟人多说话 | 爱猫爱吐槽</p>', unsafe_allow_html=True)
 
 # Initialize chat history in session state
@@ -201,7 +201,7 @@ if prompt := st.chat_input("说点什么..."):
 # Sidebar with info
 with st.sidebar:
     st.header("关于这个 AI 分身")
-    st.write("这是王俊毅的 AI 分身")
+    st.write("这是Cica的 AI 分身")
     st.write("")
     st.write("**性格特点**")
     st.write("- 超级高冷")
